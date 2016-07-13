@@ -3,21 +3,17 @@ package cap4.lab;
 public class Lab1 {
 
 	public static void main(String[] args) {
-		int numero = 336;
+		int numero = 338;
 		int divisoes = 0;
 		int i = 1;
 
 		for (; i < numero; i++) {
-			if ((i % numero) == 0) {
-				divisoes = i % numero;
-			}
+			divisoes = numero % i;	
 		}
-		System.out.println(i);
-		System.out.println(divisoes);
-		if (divisoes <= 2){
-			System.out.println("Primo");
+		if (divisoes < 2){
+			System.out.println(numero + " Primo");
 		}else{
-			System.out.println("Não Primo");
+			System.out.println(numero + " Nautual");
 		}
 	}
 }
