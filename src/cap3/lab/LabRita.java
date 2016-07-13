@@ -15,8 +15,7 @@ public class LabRita {
 	public static void main(String[] args) {
 		double vcompra = 1100;
 		double vapagar;
-		String d10 = "10 %";  	
-		String d5 = "5 %";
+
 		
 		vapagar = vcompra > 3000 ? (vcompra * 0.90)
 				: (vapagar = vcompra >= 1001 ? (vcompra * 0.95) : (vcompra));
