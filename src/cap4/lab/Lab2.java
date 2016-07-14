@@ -15,7 +15,7 @@ public class Lab2 {
 					System.out.println("O mês escolhido tem 31 dias" );
 					break;
 				case "Fevereiro":
-					System.out.println("O mês escolhido tem 28 dias" );
+					System.out.println("O mês escolhido tem 28 ou 29 dias" );
 					break;
 				case "Abril":
 				case "Junho":
