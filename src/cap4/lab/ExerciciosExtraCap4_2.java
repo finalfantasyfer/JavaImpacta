@@ -4,7 +4,7 @@
  */
 package cap4.lab;
 
-public class ExercicioExtraCap4_2 {
+public class ExerciciosExtraCap4_2 {
 
 	public static void main(String[] args) {
 		int tabuada = 0;
