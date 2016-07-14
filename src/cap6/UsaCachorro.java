@@ -12,10 +12,10 @@ public class UsaCachorro {
 		c2.nome = "Fifi";
 		c2.raca = "Poodle";
 		c2.idade = 3;
-		System.out.println("Nome  Raça    idade"  );
+		System.out.println("Nome  | Raça   | idade"  );
 		System.out.println("-------------------");
-		System.out.println(c1.nome+ "  "+  c1.raca + "     " +  c1.idade);
-		System.out.println(c2.nome+ "  "+  c2.raca + "   " +  c2.idade);
+		System.out.println(c1.nome+ "  | "+  c1.raca + "   |  " +  c1.idade);
+		System.out.println(c2.nome+ "  | "+  c2.raca + " |  " +  c2.idade);
 		
 	}
 
